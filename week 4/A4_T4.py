@@ -9,7 +9,7 @@ while Word != '':
     Word = input("Insert word (empty stops): ")
 print("")
 print("You inserted:")
-print(f"-{WordCount} words")
+print(f"- {WordCount} words")
 print(f"- {CharCount} characters")
 print("")
 print("Program ending")

@@ -1,19 +1,12 @@
-
-
-print("program starting.")
-print("")
-Feed = input("Insert starting value: ")
-start = int(Feed)
-Feed = input("Insert stopping value: ")
-stop = int(Feed) + 1
-print("")
-print("starting while-loop:")
-current = start
-while current != stop:
-    if (current == (stop)):
-        print(current)
+print("Program starting.")
+start = int(input("Insert starting value: "))
+stop = int(input("Insert stopping value: "))
+print("Starting while-loop:")
+i = start
+while i <= stop:
+    if i == stop:
+        print(i)
     else:
-        print(current, end=' ')
-        current += 1
-        print("")
-print("program ending.")
+        print(i, end=" ")
+    i = i + 1
+print("Program ending.")
